@@ -24,4 +24,5 @@ data.items.push(newProduct);
 
 showProducts();
 document.getElementById("myForm").reset();
+
 });
