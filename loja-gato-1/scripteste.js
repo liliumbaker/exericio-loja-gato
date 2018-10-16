@@ -1,4 +1,4 @@
-let botao = document.getElementById("botao");
+const botao = document.getElementById("botao");
 botao.addEventListener("click", function(event){
  event.preventDefault();
 
@@ -6,7 +6,7 @@ let formProduto = document.getElementById("produto").value;
 let formPreco = document.getElementById("preco").value;
 let formLink = document.getElementById("link").value;
 
-var newProduct = {
+let newProduct = {
     "product":{
         "name": "",
         "images": [
