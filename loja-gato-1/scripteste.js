@@ -20,6 +20,17 @@ newProduct.product.name = formProduto;
 newProduct.product.price.value = formPreco;
 newProduct.product.images.push(formLink);
 // pode ser a estrutura assim: newProduct["product"]["name"] = 
+// refatorado --> data.items.push({
+ //   "product":{
+  //      "name": "",
+   //     "images": [
+    //        ""
+    //    ],
+     //   "price": {
+      //      "value": product.price.value
+      //  }}
+//};
+//)
 
 data.items.push(newProduct);
 showProducts();
