@@ -18,10 +18,10 @@ let newProduct = {
 };
 newProduct.product.name = formProduto;
 newProduct.product.price.value = formPreco;
-newProduct.product.images[0] = formLink;
+newProduct.product.images.push(formLink);
+// pode ser a estrutura assim: newProduct["product"]["name"] = 
 
 data.items.push(newProduct);
-
 showProducts();
 document.getElementById("myForm").reset();
 
